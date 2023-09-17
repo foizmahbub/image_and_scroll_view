@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="201dp"
+        android:layout_height="200dp"
+        android:layout_margin="50dp"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/sdf"
+
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="My dream job is to become a Software Engineer. This role involves creating, testing, and improving computer software.
+        I am drawn to software engineering because of my love for computers and problem-solving.
+        This job allows me to use both these interests.
+        As a software engineer, I’ll design and develop software applications. It’s exciting to create something that people use daily.
+        Software Engineers have a significant impact on society. They create tools that help people in their everyday lives.
+        Becoming a Software Engineer is my dream job because it combines my interests and can positively impact the world.
+       Software engineering is a field that promotes continuous learning and personal growth. The rapidly changing technology landscape means that there is always something new to learn, a challenge to overcome, or a problem to solve. This constant evolution provides an opportunity for lifelong learning and the development of a wide range of skills, from technical competencies to teamwork and communication abilities.
+
+"
+            android:textSize="15dp" />
+
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="116dp"
+        app:srcCompat="@drawable/android" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/soft" />
+</LinearLayout>
